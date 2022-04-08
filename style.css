@@ -27,9 +27,7 @@ html::-webkit-scrollbar-track{
 body{
     background-color: #000f00;
 }
-section{
-    
-}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -48,7 +46,6 @@ section{
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem 7%;
-    border-bottom: .1rem solid rgb(255, 255, 255);
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
@@ -111,7 +108,7 @@ section{
 }
 .cart-items-container{
     position: absolute;
-    top: 101%; right: -200%;
+    top: 100%; right: -200%;
     width: 30rem;
     background-color: rgb(255, 255, 255);
     height: 80vh;
@@ -163,7 +160,6 @@ section{
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
-    
 }
 .home .content{
     max-width: 70rem;
@@ -283,9 +279,17 @@ section{
 .review .box-container .box .image{
     width: 150px;
     padding: 1rem 0;
+    border-radius: 50%;
 }
 .review .box-container .box .person{
     width: 50px;
+    background-color: #fff;
+}
+.review .box-container .box .fa-star{
+    color: palevioletred;
+}
+.review .box-container .box .fa-star-half-alt{
+    color: palevioletred;
 }
 .review .box-container .box .fa-star:hover{
     color: yellow;
@@ -295,7 +299,9 @@ section{
     color: yellow;
     font-size: 1.6rem;
 }
-
+.review .box-container .box p{
+    color: #fff;
+}
 
 
 
