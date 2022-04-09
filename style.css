@@ -38,7 +38,7 @@ body {
   color: rgb(223, 223, 223);
   font-weight: bold;
   background-color: rgb(100, 31, 100);
-  box-shadow: 0px 10px 40px black;
+  box-shadow: 0px 0px 100px rgb(24, 21, 21);
   cursor: pointer;
 }
 
